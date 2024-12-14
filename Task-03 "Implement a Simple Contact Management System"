@@ -43,7 +43,7 @@ public class ContactManager {
         System.out.print("Enter email address: ");
         String email = scanner.nextLine();
         contacts.add(new Contact(name, phoneNumber, email));
-        System.out.println("Contact added successfully.");
+        System.out.println("Contact Added Successfully.");
     }
 
     public static void viewContacts() {
